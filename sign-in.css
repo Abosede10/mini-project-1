@@ -1,0 +1,284 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #6A61D3;
+    width: 100vw;
+    height: 68vh;
+}
+::placeholder {
+    font-size: 18px;
+    padding-left: 10px ;
+}       
+.wrapper
+{
+    margin: 5rem auto ;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+
+}
+h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    letter-spacing: 3px;
+    color: rgb(94, 91, 91);
+    text-align: center;
+}
+
+input[type='email']
+{
+    width: 63%;
+    padding: 20px 5px 20px 5px;
+    margin-bottom: 1.3rem;
+    border: none;
+    background-color: #E6E9ED;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+input[type='password']{
+    width: 63%;
+    padding: 20px 5px 20px 5px;
+    margin-bottom: 1.3rem;
+    border: none;
+    background-color: #E6E9ED;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.remember-me{
+    text-align: start;
+    padding-left: 8rem;
+    color: #6e6e6e;
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+button
+{
+    padding:1.3rem 10.3rem;
+    border: none;
+    background-color: #6A61D3;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-home
+{
+    color: #6e6e6e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 8rem;
+    text-decoration: none;
+
+}
+.back-home:hover
+{
+    color: #6A61D3;
+}
+
+@media screen and (max-width: 1200px) and (min-width:1100px) {
+    input[type='email']
+    {
+        width: 65%;
+        padding: 20px 5px 20px 5px;
+        margin-bottom: 1.3rem;
+        border: none;
+        background-color: #E6E9ED;
+        border-radius: 5px;
+        font-size: 18px;
+        
+    }
+    input[type='password']{
+        width: 60%;
+        padding: 20px 5px 20px 5px;
+        margin-bottom: 1.3rem;
+        border: none;
+        background-color: #E6E9ED;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+
+    .remember-me{
+        padding-left: 6.5rem;
+    }
+}
+
+@media screen and (max-width: 1099px) and (min-width: 990px){
+    .wrapper
+    {
+        width: 65%;
+    }
+    .remember-me{
+        padding-left: 9rem;
+    }
+    input
+    {
+        padding: 1.5rem 8rem;
+    }
+    button 
+    {
+        padding: 1.5rem 10rem;
+    }
+}
+@media screen and (max-width: 989px) and (min-width: 890px){
+    .wrapper
+    {
+        width: 65%;
+    }
+    .remember-me{
+        padding-left: 7rem;
+    }
+    input
+    {
+        padding: 1.5rem 8rem;
+    }
+    button 
+    {
+        padding: 1.5rem 10rem;
+    }
+}
+@media screen and (max-width: 889px) and (min-width: 798px){
+    .wrapper
+    {
+        width: 70%;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .remember-me{
+        padding-left: 7rem;
+    }
+    input
+    {
+        width: 60%;
+    }
+    button 
+    {
+        padding: 1.5rem 9rem;
+    }
+}
+@media screen and (max-width: 797px) and (min-width: 670px){
+   .wrapper
+   {
+       padding: 1rem;
+       width: 70%;
+   }
+    h1{
+        font-size: 24px;
+        letter-spacing: 0;
+    }
+    .remember-me{
+        padding-left: 4rem;
+    }
+    input[type='email']
+    {
+        width: 75%;
+    }
+    input[type='password']
+    {
+        width: 75%;
+    }
+    button 
+    {
+        padding: 1.5rem 8rem;
+    }
+}
+@media screen and (max-width: 669px) and (min-width: 570px){
+   .wrapper
+   {
+       padding: 1rem;
+       width: 80%;
+   }
+    h1{
+        font-size: 24px;
+        letter-spacing: 0;
+    }
+    .remember-me{
+        padding-left: 4rem;
+    }
+    input[type='email']
+    {
+        width: 75%;
+    }
+    input[type='password']
+    {
+        width: 75%;
+    }
+    button 
+    {
+        padding: 1.5rem 9rem;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 569px) and (min-width: 468px){
+   .wrapper
+   {
+       width: 80%;
+       padding: 2;
+       margin: 5 auto;
+   }
+    h1{
+        font-size: 20px;
+        letter-spacing: 0;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .remember-me{
+        padding-left: 4rem;
+    }
+
+    input[type='email']
+    {
+        width: 75%;
+    }
+    input[type='password']
+    {
+        width: 75%;
+    }
+
+    button 
+    {
+        padding: 1.5rem 8.5rem;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 467px) and (min-width: 0){
+   .wrapper
+   {
+       padding: 1;
+       width: 90%;
+   }
+    h1{
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+    .remember-me{
+        padding-left: 3rem;
+    }
+   input[type='email']
+    {
+        width: 75%;
+    }
+    input[type='password']
+    {
+        width: 75%;
+    }
+    button 
+    {
+        padding: 1.5rem 7.5rem;
+        font-size: 17px;
+    }
+}
